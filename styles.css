@@ -1,0 +1,85 @@
+/* General Reset */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Header */
+.site-header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.site-header h1 {
+  margin: 0;
+}
+
+.main-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+  display: flex;
+  gap: 15px;
+}
+
+.main-nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Sections */
+section {
+  padding: 20px;
+  margin: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+/* Cards */
+.cards {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  flex: 1;
+  padding: 15px;
+  border: 2px solid #0077cc;
+  background-color: #e6f2ff;
+  margin: 10px 0;
+}
+
+/* Box Model Demo */
+.box {
+  background-color: #ffe6e6;
+  border: 3px dashed #cc0000;
+  padding: 20px;
+  margin: 30px;
+}
+
+/* Buttons */
+button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: 2px solid #333;
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+button.secondary {
+  background-color: #ccc;
+  border-color: #666;
+}
+
+/* Footer */
+.site-footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #333;
+  color: white;
+  margin-top: 40px;
+}
